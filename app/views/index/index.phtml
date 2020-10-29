@@ -1,0 +1,14 @@
+<?php
+if($user)
+{
+    echo $user->name;
+
+?>
+<button type="button"><a href="/Phalcon/demoLogin/user/logout">Logout</a></button>
+<?php
+}
+else
+{
+    echo 'Please Login';
+}
+?>
